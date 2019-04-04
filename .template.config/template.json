@@ -1,0 +1,9 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Zhu.Jian",
+    "classifications": [ "Web","WebApi"],
+    "identity": "ZHUJIAN.AbpWebApiTemplate.CSharp",
+    "name": "ABP Web Api Project",
+    "shortName": "abpwebapi",
+    "sourceName": "Zians"
+  }
