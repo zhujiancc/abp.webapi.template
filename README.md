@@ -1,16 +1,15 @@
-# ASP.NET Core & EntityFramework Core Based Startup Template
+## Abp Webapi Template 
 
-This template is a simple startup project to start with ABP
-using ASP.NET Core and EntityFramework Core.
+>基于aspboilpalte 的WebApi最简模板, 不依赖Module Zero
 
-## Prerequirements
+### 使用
+```
+git clone https://github.com/zhujiancc/abp.webapi.template.git 
 
-* Visual Studio 2017
-* .NET Core SDK
-* SQL Server
+dotnet new -i [tempalte path]
 
-## How To Run
+mkdir demo
+cd demo
+dotnet new abpwebapi
 
-* Open solution in Visual Studio 2017
-* Set .Web project as Startup Project and build the project.
-* Run the application.
+```
