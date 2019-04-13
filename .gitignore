@@ -1,7 +1,7 @@
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 [Bb]in/
 [Oo]bj/
-
+appsettings.Development.json
 # Logs
 Logs/
 
@@ -115,3 +115,6 @@ Backup*/
 UpgradeLog*.XML
 src/.vs/config/applicationhost.config
 .vs
+
+
+

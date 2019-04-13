@@ -1,5 +1,6 @@
 ﻿using Abp.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Zians.Books;
 
 namespace Zians.EntityFrameworkCore
 {
@@ -7,7 +8,10 @@ namespace Zians.EntityFrameworkCore
     {
         //Add DbSet properties for your entities...
 
-        public ZiansDbContext(DbContextOptions<ZiansDbContext> options) 
+        public DbSet<Book> Books { get; set; }
+
+        //Add DbSet properties for your entities...
+        public ZiansDbContext(DbContextOptions<ZiansDbContext> options)
             : base(options)
         {
 
