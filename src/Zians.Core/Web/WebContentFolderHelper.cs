@@ -29,7 +29,7 @@ namespace Zians.Web
                 directoryInfo = directoryInfo.Parent;
             }
 
-            return Path.Combine(directoryInfo.FullName, $"src{Path.DirectorySeparatorChar}Zians.Web");
+            return Path.Combine(directoryInfo.FullName, $"src{Path.DirectorySeparatorChar}Zians.WebApi");
         }
 
         private static bool DirectoryContains(string directory, string fileName)

@@ -1,12 +1,16 @@
-﻿using System;
-using Zians.Extensions;
+﻿using Abp.Domain.Entities.Auditing;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Zians.Books
 {
-    public class Book : CodeAuditedEntity
+    public class Book : FullAuditedEntity
     {
         public string Name { get; set; }
 
-        public DateTime Publish { get; set; }
+        public double Price { get; set; }
+
+        public DateTime  PublishTime { get; set; }
     }
 }

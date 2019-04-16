@@ -9,7 +9,10 @@ namespace Zians.EntityFrameworkCore
         //Add DbSet properties for your entities...
         public DbSet<Book> Books { get; set; }
 
-        public ZiansDbContext(DbContextOptions<ZiansDbContext> options) 
+        public DbSet<Book> Books { get; set; }
+
+        //Add DbSet properties for your entities...
+        public ZiansDbContext(DbContextOptions<ZiansDbContext> options)
             : base(options)
         {
 
