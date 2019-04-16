@@ -17,4 +17,7 @@
     <PackageReference Include="Abp.EntityFrameworkCore" Version="4.3.0" />
     <PackageReference Include="Abp.AutoMapper" Version="4.3.0" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Books\Dtos\" />
+  </ItemGroup>
 </Project>
